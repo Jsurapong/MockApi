@@ -1,0 +1,31 @@
+{
+    "companies": [
+        {
+            "id": 1,
+            "name": "Company 1"
+        },
+        { "id": 2, "name": "Company 2" }
+    ],
+    "users": [
+        { "id": 1, "name": "User 1", "companyId": 1 },
+        { "id": 2, "name": "User 2", "companyId": 2 }
+    ],
+    "kinds": [
+        {
+            "id": 1,
+            "name": "Type 1",
+            "companyId": 1
+        },
+        {
+            "id": 2,
+            "name": "Type 2",
+            "companyId": 2
+        }
+    ],
+    "products": [
+        { "id": 1, "name": "Product 1", "kindId": 2 },
+        { "id": 2, "name": "Product 2", "kindId": 2 },
+        { "id": 3, "name": "Product 3", "kindId": 1 },
+        { "id": 4, "name": "Product 4", "kindId": 2 }
+    ]
+}

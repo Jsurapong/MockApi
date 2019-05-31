@@ -1,14 +1,94 @@
 {
+    "loginByEmail": [
+        {
+            "id": 1,
+            "data": {
+                "access_token": "access_token123456",
+                "user": {
+                    "name": "surapong",
+                    "email": "surapong",
+                    "phone": "+66819542487",
+                    "created_at": "2019-01-28 11:31:28",
+                    "updated_at": "2019-03-26 10:02:11",
+                    "deleted_at": "null",
+                    "profile_image": "null",
+                    "role": {
+                        "id": 1,
+                        "name": "superadmin",
+                        "display_name": "superadmin"
+                    },
+                    "id": 1,
+                    "country": {
+                        "country_code": "TH",
+                        "created_at": "2019-01-28 11:31:28",
+                        "currency_code": "THB",
+                        "deleted_at": null,
+                        "display_name": "Thailand",
+                        "id": 3,
+                        "language": "th",
+                        "name": "thailand",
+                        "phone_code": "66",
+                        "updated_at": "2019-03-26 10:02:11"
+                    }
+                }
+            }
+        }
+    ],
+    "users": [
+        {
+            "access_token": "access_token123456",
+            "name": "surapong",
+            "email": "surapong",
+            "phone": "+66819542487",
+            "country_name": "Thailand",
+            "phone_code": "66",
+            "country_code": "TH",
+            "currency_code": "THB",
+            "language": "th",
+            "created_at": "2019-01-28 11:31:28",
+            "updated_at": "2019-03-26 10:02:11",
+            "deleted_at": "null",
+            "profile_image": "null",
+            "id": 17
+        },
+        {
+            "access_token": "access_token123456",
+            "name": "surapong",
+            "email": "surapong",
+            "phone": "+66819542487",
+            "country_name": "Thailand",
+            "phone_code": "66",
+            "country_code": "TH",
+            "currency_code": "THB",
+            "language": "th",
+            "created_at": "2019-01-28 11:31:28",
+            "updated_at": "2019-03-26 10:02:11",
+            "deleted_at": "null",
+            "profile_image": "null",
+            "id": 18
+        }
+    ],
     "companies": [
         {
             "id": 1,
             "name": "Company 1"
         },
-        { "id": 2, "name": "Company 2" }
+        {
+            "id": 2,
+            "name": "Company 2"
+        }
     ],
-    "users": [
-        { "id": 1, "name": "User 1", "companyId": 1 },
-        { "id": 2, "name": "User 2", "companyId": 2 }
+    "usersA": [
+        {
+            "id": 1,
+            "name": "User 1",
+            "companyId": 1
+        },
+        {
+            "id": 2,
+            "name": "User 2",
+            "companyId": 2
+        }
     ],
     "kinds": [
         {
@@ -23,9 +103,25 @@
         }
     ],
     "products": [
-        { "id": 1, "name": "Product 1", "kindId": 2 },
-        { "id": 2, "name": "Product 2", "kindId": 2 },
-        { "id": 3, "name": "Product 3", "kindId": 1 },
-        { "id": 4, "name": "Product 4", "kindId": 2 }
+        {
+            "id": 1,
+            "name": "Product 1",
+            "kindId": 2
+        },
+        {
+            "id": 2,
+            "name": "Product 2",
+            "kindId": 2
+        },
+        {
+            "id": 3,
+            "name": "Product 3",
+            "kindId": 1
+        },
+        {
+            "id": 4,
+            "name": "Product 4",
+            "kindId": 2
+        }
     ]
 }

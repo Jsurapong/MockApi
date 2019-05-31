@@ -1,0 +1,4 @@
+{
+    "/api/v1/users/current": "/loginEmail/1",
+    "/api/v1/loginByEmail": "/loginEmail/1"
+}
